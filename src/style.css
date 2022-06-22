@@ -1,0 +1,47 @@
+@import url('https://fonts.googleapis.com/css2?family=Lobster&family=Poppins:wght@500;700&display=swap');
+
+*{
+    font-family: 'Poppins', sans-serif;
+}
+#home{
+    background-image: url(./images/coffeebg.jpg);
+    width: 100%;
+    height: 88vh;
+    /* background-repeat: no-repeat; */
+    background-size: cover;
+    background-position: center;
+}
+#home-content{
+    letter-spacing: 3px;
+}
+#menu{
+    overflow: hidden;
+}
+#about{
+    overflow: hidden;
+}
+#special{
+    overflow: hidden;
+}
+#contact{
+    overflow: hidden;
+}
+#footer{
+    overflow: hidden;
+}
+@media screen and (max-width:1025px) {
+    #home{
+        height: 96vh;
+    }
+}
+
+@media screen and (max-width:425px) {
+    #home{
+        height: 89vh;
+        background-image: url('images/bbgg.jpg');
+    }
+    #home-content{
+        color:yellow;
+    }
+    
+}

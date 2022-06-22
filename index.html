@@ -1,0 +1,436 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Coffee House</title>
+    <link rel="stylesheet" href="./css/main.min.css">
+    <link rel="stylesheet" href="src/style.css">
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css" integrity="sha512-KfkfwYDsLkIlwQp6LFnl8zNdLGxu9YAA1QvwINks4PhcElQSvqcyVLLD9aMhXd13uQjoXtEKNosOWaZqXgel0g==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+</head>
+<body>
+    <!-- Nav Start -->
+    <nav class="navbar fixed-top navbar-dark navbar-expand-lg bg-dark">
+        <div class="container-fluid">
+          <a class="navbar-brand text-primary fs-3 fw-bolder" href="#">
+            <img src="./src/images/coffeelogo.png" alt="">  
+            COFFEE HOUSE
+            </a>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+              <li class="nav-item">
+                <a class="nav-link active" aria-current="page" href="#home">Home</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#menu">Menu/Order</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#about">About Us</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#special">Special</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#contact">Contact</a>
+              </li>
+            </ul>
+            <form class="d-flex" role="search">
+              <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+              <button class="btn btn-outline-primary" type="submit">Search</button>
+            </form>
+          </div>
+        </div>
+    </nav>
+    <!-- Nav End -->
+
+    <!-- Home Session Start -->
+    <div id="home" class=" container-fluid d-flex align-items-center ps-lg-5 ps-sm-2 ps-md-4">
+        <div>
+            <p class=" text-white fs-1 fw-bolder fst-italic" id="home-content"  data-aos="fade-right" data-aos-offset="300" data-aos-easing="ease-in-sine">
+                Let's Start Our Love <br>With A Cup Of Coffee
+            </p>
+            <button class=" btn btn-outline-primary"  data-aos="fade-right" data-aos-offset="300" data-aos-easing="ease-in-sine">Read More...</button>
+        </div>
+    </div>
+    <!-- Home Session End -->
+
+   <!-- Menu Session Start -->
+ <div id="menu" class=" container-fluid bg-secondary">
+    <div class="container bg-secondary row">
+        <div class="col-lg-4 col-md-5 col-12 ps-5" data-aos="fade-right">
+            <div class=" border border-success my-4 rounded p-4">
+                <p class=" fs-4 text-center text-decoration-underline">Today Coffee List</p>
+                <p class=" text-decoration-underline">Special Coffee/Tea</p>
+                <ul>
+                    <li>Cuppuccino</li>
+                    <li>Espresso</li>
+                    <li>Nescafe</li>
+                    <li>Ice Coffee</li>
+                    <li>Mocha</li>
+                    <li>Latte</li>
+                </ul>
+                <p class=" text-decoration-underline">Cake</p>
+                <ul>
+                    <li>Chiffon Cake</li>
+                    <li>Biscuit Cake</li>
+                    <li>Butter Cake</li>
+                    <li>Chocolate Sponge Cake</li>
+                    <li>Strawberry Cake</li>
+                    <li class=" text-decoration-line-through">Angel Food Cake</li>
+                </ul>
+            </div>
+        </div>
+
+        <div class="col-lg-8 col-md-7 col-12">
+            <ul class="nav nav-pills mb-3 pt-3" id="pills-tab" role="tablist">
+              <li class="nav-item" role="presentation">
+                <button class="nav-link active" id="pills-home-tab" data-bs-toggle="pill" data-bs-target="#pills-coffee" type="button" role="tab" aria-controls="pills-home" aria-selected="true">Coffee List</button>
+              </li>
+              <li class="nav-item" role="presentation">
+                <button class="nav-link" id="pills-profile-tab" data-bs-toggle="pill" data-bs-target="#pills-cake" type="button" role="tab" aria-controls="pills-profile" aria-selected="false">Cake List</button>
+              </li>      
+            </ul>
+            <div class="tab-content" id="pills-tabContent">
+              <!-- Coffee List Session Start -->
+              <div class="tab-pane fade show active" id="pills-coffee" role="tabpanel" aria-labelledby="pills-home-tab" tabindex="0">
+                <div class="container row">
+                    <div class="col-lg-4 col-md-6 col-sm-12 mb-4" data-aos="fade-right">
+                      <div class="card">
+                        <img src="./src/images/cappuccino (2).png" class="card-img-top w-100" style=" height: 120px;">
+                        <div class="card-body">
+                          <h5 class="card-title">Cuppuccino</h5>
+                          <p class="card-text">Price -2000MMK</p>
+                          <a href="#" class="btn btn-primary">Order Now</a>
+                        </div>
+                      </div>
+                    </div>
+
+                    <div class="col-lg-4 col-md-6 col-sm-12 mb-4" data-aos="flip-left">
+                      <div class="card">
+                        <img src="./src/images/espresso.png" class="card-img-top w-100" style="height: 120px;">
+                        <div class="card-body">
+                          <h5 class="card-title">Espresso</h5>
+                          <p class="card-text">Price - 1500MMK</p>
+                          <a href="#" class="btn btn-primary">Order Now</a>
+                        </div>
+                      </div>
+                    </div>
+
+                    <div class="col-lg-4 col-md-6 col-sm-12 mb-4" data-aos="fade-left">
+                      <div class="card">
+                        <img src="./src/images/nescafe1.png" class="card-img-top w-100" style="height: 120px;">
+                        <div class="card-body">
+                          <h5 class="card-title">Nescafe</h5>
+                          <p class="card-text">Price - 1000MMK</p>
+                          <a href="#" class="btn btn-primary">Order Now</a>
+                        </div>
+                      </div>
+                    </div>
+
+                    <div class="col-lg-4 col-md-6 col-sm-12 mb-4" data-aos="fade-up-right">
+                      <div class="card">
+                        <img src="./src/images/icedcoffee.png" class="card-img-top w-100" style="height: 120px;">
+                        <div class="card-body">
+                          <h5 class="card-title">Ice Coffee</h5>
+                          <p class="card-text">Price - 1000MMK</p>
+                          <a href="#" class="btn btn-primary">Order Now</a>
+                        </div>
+                      </div>
+                    </div>
+
+                    <div class="col-lg-4 col-md-6 col-sm-12 mb-4" data-aos="flip-right">
+                      <div class="card">
+                        <img src="./src/images/mocha.png" class="card-img-top w-100" style="height: 120px;">
+                        <div class="card-body">
+                          <h5 class="card-title">Mocha</h5>
+                          <p class="card-text">Price -2000MMK</p>
+                          <a href="#" class="btn btn-primary">Order Now</a>
+                        </div>
+                      </div>
+                    </div>
+
+                    <div class="col-lg-4 col-md-6 col-sm-12 mb-4" data-aos="fade-up-left">
+                      <div class="card">
+                        <img src="./src/images/Latte.png" class="card-img-top w-100" alt="..." style="height: 120px;">
+                        <div class="card-body">
+                          <h5 class="card-title">Latte</h5>
+                          <p class="card-text">Price -2500MMK</p>
+                          <a href="#" class="btn btn-primary">Order Now</a>
+                        </div>
+                      </div>
+                    </div>
+                </div>
+                
+              </div>
+              <!-- Coffee List Session End -->
+
+              <!-- Cake List Session Start -->
+              <div class="tab-pane fade" id="pills-cake" role="tabpanel" aria-labelledby="pills-profile-tab" tabindex="0">
+                <div class="container row">
+                    <div class="col-lg-4 col-md-6 col-sm-12 mb-4">
+                      <div class="card">
+                        <img src="./src/images/chiffonCake.webp" class="card-img-top w-100" style=" height: 120px;">
+                        <div class="card-body">
+                          <h5 class="card-title">Chiffon Cake</h5>
+                          <p class="card-text">Price -3000MMK</p>
+                          <a href="#" class="btn btn-primary">Order Now</a>
+                        </div>
+                      </div>
+                    </div>
+
+                    <div class="col-lg-4 col-md-6 col-sm-12 mb-4">
+                      <div class="card">
+                        <img src="./src/images/biscuitCake.webp" class="card-img-top w-100" style="height: 120px;">
+                        <div class="card-body">
+                          <h5 class="card-title">Biscuit Cake</h5>
+                          <p class="card-text">Price - 2500MMK</p>
+                          <a href="#" class="btn btn-primary">Order Now</a>
+                        </div>
+                      </div>
+                    </div>
+
+                    <div class="col-lg-4 col-md-6 col-sm-12 mb-4">
+                      <div class="card">
+                        <img src="./src/images/buttercake.jpg" class="card-img-top w-100" style="height: 120px;">
+                        <div class="card-body">
+                          <h5 class="card-title">Butter Cake</h5>
+                          <p class="card-text">Price - 3000MMK</p>
+                          <a href="#" class="btn btn-primary">Order Now</a>
+                        </div>
+                      </div>
+                    </div>
+
+                    <div class="col-lg-4 col-md-6 col-sm-12 mb-4">
+                      <div class="card">
+                        <img src="./src/images/chocolateSpongeCake.jpg" class="card-img-top w-100" style="height: 120px;">
+                        <div class="card-body">
+                          <h5 class="card-title">Choco Sponge</h5>
+                          <p class="card-text">Price - 4000MMK</p>
+                          <a href="#" class="btn btn-primary">Order Now</a>
+                        </div>
+                      </div>
+                    </div>
+
+                    <div class="col-lg-4 col-md-6 col-sm-12 mb-4">
+                      <div class="card">
+                        <img src="./src/images/strawberry.png" class="card-img-top w-100" style="height: 120px;">
+                        <div class="card-body">
+                          <h5 class="card-title">Strawberry Cake</h5>
+                          <p class="card-text">Price -2500MMK</p>
+                          <a href="#" class="btn btn-primary">Order Now</a>
+                        </div>
+                      </div>
+                    </div>
+
+                    <div class="col-lg-4 col-md-6 col-sm-12 mb-4">
+                      <div class="card">
+                        <img src="./src/images/angelFoodCake.webp" class="card-img-top w-100" alt="..." style="height: 120px;">
+                        <div class="card-body">
+                          <h5 class="card-title">Angel Food Cake</h5>
+                          <p class="card-text">Price -3500MMK</p>
+                          <a href="#" class="btn btn-primary">Order Now</a>
+                        </div>
+                      </div>
+                    </div>
+                </div>
+                
+              </div>
+              
+            </div>
+              <!-- Cake List Session End -->
+        </div>
+    </div>  
+    
+        
+</div>
+
+<!-- Menu Session End -->
+
+<!-- About Us Session Start -->
+<div class="container-fluid bg-dark pb-3" id="about">
+  <div class="container">
+      <div class="row">
+          <div class="col-lg-6 col-md-6 col-sm-12" data-aos="fade-down-right">
+              <img src="./src/images/aboutus1.png" alt="" class="w-100">
+          </div>
+          <div class="col-lg-6 col-md-6 col-sm-12 d-flex align-items-center pb-sm-4 pb-mb-4 ps-lg-2" data-aos="fade-down-left">
+              <div class=" text-info">
+                <p class=" fs-3 text-decoration-underline">About Us</p>
+                <p>
+                  Lorem ipsum dolor sit amet, consectetur adipisicing elit. Expedita ratione placeat consequuntur eius corrupti culpa quis ad quam similique officiis nemo modi quod, obcaecati ex qui voluptatibus excepturi quaerat eaque.
+                </p>
+                <button class="btn btn-outline-primary">Read More..</button>
+              </div>
+          </div>
+      </div>
+  </div>
+</div>
+<!-- About Us Session End -->
+
+<!-- Special Promotion Session Start -->
+<div class="container-fluid bg-secondary" id="special">
+  <div class="container">
+    <div class="row">
+      <div class="col-lg-6 col-md-6 col-sm-12 py-lg-4 py-sm-4 pe-5 border-end">
+          <p class=" text-dark fs-3 text-decoration-underline" data-aos="fade-right">Special Offer</p>
+          <p data-aos="fade-right">Please, preorder before 3 weeks.</p>
+          <div class="row">
+            <div class="col-lg-6 my-4" data-aos="flip-left">
+              <div class="card">
+                <img src="./src/images/birthday.jpg" class="card-img-top w-100" style="height: 170px;">
+                <div class="card-body">
+                  <h5 class="card-title">Birthday Cake</h5>
+                  <a href="#" class="btn btn-primary">Order Now</a>
+                </div>
+              </div>
+            </div>
+            <div class="col-lg-6 my-4" data-aos="flip-right">
+              <div class="card">
+                <img src="./src/images/anni.png" class="card-img-top w-100" style="height: 170px;">
+                <div class="card-body">
+                  <h5 class="card-title">Anniversary Cake</h5>
+                  
+                  <a href="#" class="btn btn-primary">Order Now</a>
+                </div>
+              </div>
+            </div>
+            <div class="col-lg-6 my-4" data-aos="flip-left">
+              <div class="card">
+                <img src="./src/images/wedding.png" class="card-img-top w-100" style="height: 170px;">
+                <div class="card-body">
+                  <h5 class="card-title">Wedding Cake</h5>
+                  
+                  <a href="#" class="btn btn-primary">Order Now</a>
+                </div>
+              </div>
+            </div>
+            
+          </div>
+      </div>
+      <div class="col-lg-6 col-md-6 col-sm-12 py-lg-4 py-sm-4 ps-5">
+          <p class=" text-dark fs-3 text-decoration-underline" data-aos="fade-left">Special Promotion</p>
+          <p data-aos="fade-left">In this period, we offer special discounts or buy 2 get 1.</p>
+          <div class="row">
+            <div class="col-lg-6 my-4" data-aos="flip-left">
+              <div class="card">
+                <img src="./src/images/Happy-New-Year.png" class="card-img-top w-100" style="height: 170px;">
+                <div class="card-body">
+                  <h5 class="card-title">Happy New Year</h5>
+                </div>
+              </div>
+            </div>
+            <div class="col-lg-6 my-4" data-aos="flip-left">
+              <div class="card">
+                <img src="./src/images/christmas tree.png" class="card-img-top w-100" style="height: 170px;">
+                <div class="card-body">
+                  <h5 class="card-title">Marry Christmas</h5>
+                </div>
+              </div>
+            </div>
+            <div class="col-lg-6 my-4" data-aos="zoom-in-right">
+              <div class="card">
+                <img src="./src/images/thingyan2.png" class="card-img-top w-100" style="height: 170px;">
+                <div class="card-body">
+                  <h5 class="card-title">Thingyan Festival</h5>
+                </div>
+              </div>
+            </div>
+            <div class="col-lg-6 my-4" data-aos="zoom-in-left">
+              <div class="card">
+                <img src="./src/images/candle light.png" class="card-img-top w-100" style="height: 170px;">
+                <div class="card-body">
+                  <h5 class="card-title">Thidingyut Festival</h5>
+                </div>
+              </div>
+            </div>
+          </div>
+      </div>
+    </div>
+  </div>
+</div>
+<!-- Special Promotion Session End -->
+
+ <!-- Contact Session Start -->
+ <div class="container-fluid bg-dark" id="contact">
+  <div class="container">
+    <div class="row">
+      <div class="col-lg-6 col-md-6 col-sm-12 py-lg-4" data-aos="fade-down-right">
+          <p class=" text-info fs-3 text-decoration-underline">Contact Us</p>
+          <form>
+            <div class="input-group mb-3">
+              <span class="input-group-text">User Name</span>
+              <input type="text" class="form-control">
+            </div>
+            <div class="input-group mb-3">
+              <span class="input-group-text">Email</span>
+              <input type="text" class="form-control">
+            </div>
+            <div class="input-group mb-3">
+              <span class="input-group-text">Case</span>
+              <input type="text" class="form-control">
+            </div>
+            <button class=" btn btn-outline-primary">Send Message</button>
+          </form>
+      </div>
+      <div class="col-lg-6 col-md-6 col-sm-12 py-lg-4 py-sm-4" data-aos="fade-down-left">
+        <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3817.90386032952!2d96.13126991434669!3d16.88064972166582!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x30c1959a40c3d331%3A0x38940bfbb27f9fde!2sCoffee%20House!5e0!3m2!1sen!2sro!4v1654666300018!5m2!1sen!2sro" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade" class="w-100" height="280px"></iframe>
+      </div>
+    </div>
+  </div>
+</div>
+<!-- Contact Session End -->
+
+<!-- Footer Session Start -->
+<div class=" container-fluid bg-dark pt-4 border-top" id="footer">
+  <div class="container">
+      <div class="row text-white-50">
+        <div class="col-lg-4 col-md-4 col-sm-12" data-aos="zoom-out-right">
+          <img src="./src/images/last1.png" class="w-25"><br>
+          <i class="fa-brands fa-facebook-square fs-3 mx-2" style="cursor: pointer;"></i>
+          <i class="fa-brands fa-instagram-square fs-3 mx-2" style="cursor: pointer;"></i>
+          <i class="fa-brands fa-twitter-square fs-3 mx-2" style="cursor: pointer;"></i>
+        </div>
+        <div class="col-lg-4 col-md-4 col-sm-12" data-aos="zoom-out-up">
+          <p>Address - Yangon, Myanmar</p>
+          <p>Phone - 0977596004</p>
+          <p>Hot line - 09455331890</p>
+        </div>  
+        <div class="col-lg-4 col-md-4 col-sm-12" data-aos="zoom-out-left">
+          <p>Popular Tags</p>
+          <a href="#home" class=" d-block text-decoration-none text-white-50">Home</a>
+          <a href="#menu" class=" d-block text-decoration-none text-white-50">Menu/Order</a>
+          <a href="#about" class=" d-block text-decoration-none text-white-50">About</a>
+          <a href="#special" class=" d-block text-decoration-none text-white-50">Special</a>
+          <a href="#contact" class=" d-block text-decoration-none text-white-50">Contact</a>
+          
+      </div>  
+      </div>
+  </div>
+</div>
+<div class="container-fluid bg-black text-center text-white">
+  Design & Develop by 
+  <img src="./src/images/ee.png" alt="" style=" width:30px; height:30px;">
+  <img src="./src/images/ee.png" alt="" style=" width:30px; height:30px;">
+  <img src="./src/images/hh.png" alt="" style=" width:30px; height:30px;">
+  to Coffee House <br>
+  <!-- Copyright by Coffee House -->
+</div>
+<!-- Footer Session End -->
+
+</body>
+<script src="../node_module/bootstrap/dist/js/bootstrap.min.js"></script>
+<script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+
+<script>
+  AOS.init({
+    duration: 1500
+  });
+</script>
+</html>
